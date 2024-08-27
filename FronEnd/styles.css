@@ -46,13 +46,13 @@ body {
 
 /* Hero Bölməsi */
 .hero-section {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/hero.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/hero.jpg') no-repeat center 10%;
     background-size: cover;
     height: 70vh;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 }
 
 .hero-section h1 {
@@ -136,6 +136,7 @@ footer a:hover {
 @media (max-width: 768px) {
     .hero-section h1 {
         font-size: 2.5rem;
+        background-position: center;
     }
     
     #esas-bolmeler .card {
